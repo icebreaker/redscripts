@@ -47,19 +47,19 @@ How to use
 All scripts have a consistent interface so feel free to pass `-h` or `--help`
 as an argument to find out more about each.
 
-Scripts
--------
-
 * mkchroot will create a chroot
 * echroot will install addiional packages
 * bchroot will boot into a chroot
 * watcher will watch a given directory for a pattern of files and execute a cmd
+
+You might have to look at the `source code` in order to dechiper all the possible uses cases.
 
 Todo
 ----------
 I'll add more scripts as I need them so be sure to check back or pull often.
 
 * transform the scripts into a gem for easy installation and distribution
+accross multiple systems
 
 Note on Patches/Pull Requests
 -----------------------------
